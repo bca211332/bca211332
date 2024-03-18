@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>Contact Us - Job Hunt Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('contactusimage.jpg');
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+        h1 {
+            font-size: 36px;
+            color: black;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+        form {
+            background-color: slategrey;
+            padding: 30px;
+            margin: auto;
+            border-radius: 5px;
+            width: 600px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            background-color: #f2f2f2;
+            font-size: 16px;
+            color: #555;
+        }
+        textarea {
+            height: 150px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+<h1>Contact Us</h1>
+<form>
+    Name:
+    <input type="text" id="name" name="name">
+
+    Email:
+    <input type="email" id="email" name="email">
+
+    Subject:
+    <input type="text" id="subject" name="subject">
+
+    Message:
+    <textarea id="message" name="message"></textarea>
+
+    <input type="submit" value="Send">
+</form>
+</body>
+</html>

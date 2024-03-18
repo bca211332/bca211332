@@ -1,0 +1,34 @@
+<html>
+<head>
+<script>
+var fruits=["blueberry","orange","strawberry","mango"];
+var dryfruits=["pista","dates","almonds"];
+document.write(fruits);
+document.write("<br>");
+fruits.pop();
+document.write("after pop():"+fruits);
+document.write("<br>");
+fruits.push("grapes");
+document.write("after push():"+fruits);
+document.write("<br>");
+fruits.shift();
+document.write("after shift():"+fruits);
+document.write("<br>");
+fruits.unshift("pears")
+document.write("after unshift():"+fruits);
+document.write("<br>");
+fruits.splice(2,0,"guava");
+document.write("fruits after splice():"+fruits);
+document.write("<br>");
+newfruits=fruits.concat(dryfruits);
+document.write("newfruits after concat:"+fruits);
+document.write("<br>");
+res=fruits.splice(1,3);
+document.write("after.slice():"+res);
+document.write("<br>");
+</script>
+</head>
+<body>
+</body>
+</html>
+
